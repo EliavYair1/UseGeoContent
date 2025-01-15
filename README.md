@@ -9,17 +9,21 @@ This custom React hook, **useGeoContent**, was developed for personal purposes t
 - Built-in error handling and fallback mechanisms.
 - Works seamlessly in React, Vite, and Next.js projects.
 
-## Repository
 
-GitHub Repository: [UseGeoContent](git@github.com:EliavYair1/UseGeoContent.git)
-
----
 
 ## How to Use
 
 Follow these steps to use the **useGeoContent** hook in your project:
 
-### 1. Clone the Repository
+## 1. npm package
+
+# Using npm:
+$ npm install use-geo-content
+
+# Using yarn:
+$ yarn add use-geo-content
+
+### 2. Clone the Repository
 
 To start using this hook, clone the repository:
 
@@ -31,7 +35,7 @@ $ git clone git@github.com:EliavYair1/UseGeoContent.git
 $ cd UseGeoContent
 ```
 
-### 2. Install Dependencies
+### 3. Install Dependencies
 
 Ensure you have the required dependencies installed. If the project uses a package manager (e.g., npm or yarn), install dependencies by running:
 
@@ -40,7 +44,7 @@ Ensure you have the required dependencies installed. If the project uses a packa
 $ npm install
 ```
 
-### 3. Import the Hook
+### 4. Import the Hook
 
 Copy the `useGeoContent.js` file from the repository into your project, or include it as a module in your project setup. Then import it into your component:
 
@@ -48,7 +52,7 @@ Copy the `useGeoContent.js` file from the repository into your project, or inclu
 import useGeoContent from "./hooks/useGeoContent";
 ```
 
-### 4. Configure the Hook
+### 5. Configure the Hook
 
 Use the hook in your React components by providing the necessary options:
 
@@ -83,7 +87,7 @@ function App() {
 }
 ```
 
-### 5. Run Your Application
+### 6. Run Your Application
 
 Run your project locally to test the hook:
 
@@ -98,9 +102,10 @@ $ npm run dev
 $ npm run dev
 ```
 
-### 6. Customize as Needed
+### 7. Customize as Needed
 
 Feel free to modify the hook or add features to suit your specific needs. For instance, you can integrate a different geolocation API service or enhance error handling.
+
 
 ---
 
