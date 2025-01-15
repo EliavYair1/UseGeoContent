@@ -13,9 +13,11 @@ This custom React hook, **useGeoContent**, was developed for personal purposes t
 
 ## How to Use
 
+you can either use the npm package or to clone the the git repo.
+
 Follow these steps to use the **useGeoContent** hook in your project:
 
-## 1. npm package
+## npm package
 
 ```bash
 # Using npm:
@@ -25,7 +27,9 @@ $ npm install use-geo-content
 $ yarn add use-geo-content
 ```
 
-### 2. Clone the Repository
+## repo
+
+### 1. Clone the Repository
 
 To start using this hook, clone the repository:
 
@@ -37,7 +41,7 @@ $ git clone git@github.com:EliavYair1/UseGeoContent.git
 $ cd UseGeoContent
 ```
 
-### 3. Install Dependencies
+### 2. Install Dependencies
 
 Ensure you have the required dependencies installed. If the project uses a package manager (e.g., npm or yarn), install dependencies by running:
 
@@ -46,7 +50,7 @@ Ensure you have the required dependencies installed. If the project uses a packa
 $ npm install
 ```
 
-### 4. Import the Hook
+### 3. Import the Hook
 
 Copy the `useGeoContent.js` file from the repository into your project, or include it as a module in your project setup. Then import it into your component:
 
@@ -54,7 +58,7 @@ Copy the `useGeoContent.js` file from the repository into your project, or inclu
 import useGeoContent from "./hooks/useGeoContent";
 ```
 
-### 5. Configure the Hook
+### 4. Configure the Hook
 
 Use the hook in your React components by providing the necessary options:
 
@@ -89,7 +93,7 @@ function App() {
 }
 ```
 
-### 6. Run Your Application
+### 5. Run Your Application
 
 Run your project locally to test the hook:
 
@@ -104,7 +108,7 @@ $ npm run dev
 $ npm run dev
 ```
 
-### 7. Customize as Needed
+### 6. Customize as Needed
 
 Feel free to modify the hook or add features to suit your specific needs. For instance, you can integrate a different geolocation API service or enhance error handling.
 
