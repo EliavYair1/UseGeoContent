@@ -17,10 +17,10 @@ Follow these steps to use the **useGeoContent** hook in your project:
 
 ## 1. npm package
 
-# Using npm:
+### Using npm:
 $ npm install use-geo-content
 
-# Using yarn:
+### Using yarn:
 $ yarn add use-geo-content
 
 ### 2. Clone the Repository
